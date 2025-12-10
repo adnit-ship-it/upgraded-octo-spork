@@ -9,7 +9,7 @@ export const products: Product[] = [
     id: "a9ea1b19-ac05-4827-ad7b-5dcac1f0d700",
     name: "Compounded Semaglutide",
     description: "Same active ingredient as Ozempic®* and Wegovy®*• Price Includes Consult + Medication + Shipping • 15-20% average weight loss in clinical trials • 4 Weekly Subcutaneous Injections* If medication isn't prescribed, the tele-health consult fee is $80. Compounded medications are tailored to patients & made in licensed US facilities per a Rx from a medical professional. Important safety information",
-    category: "weight-loss",
+    category: "wellness",
     img: "https://storage.googleapis.com/care360-next-public/productImages%2Fa9ea1b19-ac05-4827-ad7b-5dcac1f0d700%2FSemaglutide%20Vial%20Example.png",
     thumbnail: "https://storage.googleapis.com/care360-next-public/productImages%2Fa9ea1b19-ac05-4827-ad7b-5dcac1f0d700%2FSemaglutide%20Vial%20Example.png",
     prices: {
@@ -19,7 +19,7 @@ export const products: Product[] = [
     features: [],
     type: "injection",
     popular: false,
-    quiz: "nad-plus"
+    quiz: "glp1-weight-loss"
   },
   {
     id: "6e0ad4a2-a283-4105-a749-afb4b3a33f5b",
