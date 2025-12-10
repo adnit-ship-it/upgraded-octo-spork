@@ -4,8 +4,8 @@
     "components": [
       {
         "logo": {
-          "src": "/assets/images/brand/logo-primary-1.png",
-          "alt": "brand logo",
+          "src": "/assets/images/brand/logo-primary-1.svg",
+          "alt": "brand logos",
           "type": "svg-image",
           "show": true
         },
