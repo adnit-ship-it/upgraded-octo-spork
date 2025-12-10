@@ -168,22 +168,22 @@
             "order": 1
           },
           {
-            "title": "Virtual Consult",
-            "subtext": "Get matched and meet with a provider",
+            "title": "Patient Approved",
+            "subtext": "Receive customer service support along the way",
             "icon": {
-              "src": "/assets/images/virtual-consult.svg",
-              "alt": "Virtual consult icon",
+              "src": "/assets/images/patient-approved.svg",
+              "alt": "Patient approved icon",
               "type": "svg-image",
               "color": "#A75809"
             },
             "order": 2
           },
           {
-            "title": "Patient Approved",
-            "subtext": "Receive customer service support along the way",
+            "title": "Virtual Consult",
+            "subtext": "Get matched and meet with a provider",
             "icon": {
-              "src": "/assets/images/patient-approved.svg",
-              "alt": "Patient approved icon",
+              "src": "/assets/images/virtual-consult.svg",
+              "alt": "Virtual consult icon",
               "type": "svg-image",
               "color": "#A75809"
             },
