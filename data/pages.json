@@ -48,7 +48,7 @@
       "height": {
         "mobile": "24px",
         "tablet": "28px",
-        "desktop": "28px"
+        "desktop": "250"
       },
       "width": {
         "mobile": "auto",
@@ -123,8 +123,8 @@
     "text": "Loading..."
   },
   "common": {
-    "pageTitle": "Serenova",
-    "pageDescription": "Serenova is a company that provides a service to help people lose weight.",
+    "pageTitle": "Envita",
+    "pageDescription": "Envita is a company that provides a service to help people lose weight.",
     "buttons": {
       "next": "Next",
       "submitToProvider": "Submit to Provider",
