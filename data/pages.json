@@ -164,7 +164,10 @@
       },
       "logo": {
         "src": "/assets/images/brand/logo-1765377905942.svg",
-        "alt": "Serenova primary logo"
+        "alt": "Serenova primary logo",
+        "sizes": {
+          "desktop": "128px"
+        }
       }
     },
     "footer": {
