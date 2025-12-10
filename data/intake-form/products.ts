@@ -6,36 +6,33 @@ import type { Product } from "~/types/intake-form/checkout";
 
 export const products: Product[] = [
   {
-    id: "a9ea1b19-ac05-4827-ad7b-5dcac1f0d700",
-    name: "Compounded Semaglutide",
-    description: "Same active ingredient as Ozempic®* and Wegovy®*• Price Includes Consult + Medication + Shipping • 15-20% average weight loss in clinical trials • 4 Weekly Subcutaneous Injections* If medication isn't prescribed, the tele-health consult fee is $80. Compounded medications are tailored to patients & made in licensed US facilities per a Rx from a medical professional. Important safety information",
-    category: "skin",
-    img: "https://storage.googleapis.com/care360-next-public/productImages%2Fa9ea1b19-ac05-4827-ad7b-5dcac1f0d700%2FSemaglutide%20Vial%20Example.png",
-    thumbnail: "https://storage.googleapis.com/care360-next-public/productImages%2Fa9ea1b19-ac05-4827-ad7b-5dcac1f0d700%2FSemaglutide%20Vial%20Example.png",
+    id: "ozempic-injection",
+    name: "Ozempic Injection",
+    description: "Weekly GLP-1 injection for weight loss and blood sugar control",
+    img: "/assets/images/products/ozempic-injection.png",
+    thumbnail: "/assets/images/products/ozempic-injection.png",
     prices: {
-      monthly: 300
+      monthly: 399,
+      threeMonthly: 349,
+      sixMonthly: 349
     },
-    productBundleIds: {},
-    features: [],
-    type: "injection",
-    popular: false,
-    quiz: "anti-aging"
-  },
-  {
-    id: "6e0ad4a2-a283-4105-a749-afb4b3a33f5b",
-    name: "Compounded Tirzepatide",
-    description: "Same active ingredient as Mounjaro®* and Zepbound®*• Price Includes Consult + Medication + Shipping • 20-25% average weight loss in clinical trials• 4 Weekly Subcutaneous Injections* If medication isn't prescribed, the tele-health consult fee is $80. Compounded medications are tailored to patients & made in licensed US facilities per a Rx from a medical professional. Important safety information",
-    category: "sexual health",
-    img: "https://storage.googleapis.com/care360-next-public/productImages%2Fd3b463da-46c2-4ce2-b836-58a89f549cff%2FTirzepatide%20Vial%20Example.png",
-    thumbnail: "https://storage.googleapis.com/care360-next-public/productImages%2Fd3b463da-46c2-4ce2-b836-58a89f549cff%2FTirzepatide%20Vial%20Example.png",
-    prices: {
-      monthly: 500
+    productBundleIds: {
+      monthly: "ozempic-injection-monthly",
+      threeMonthly: "ozempic-injection-three-monthly",
+      sixMonthly: "ozempic-injection-six-monthly"
     },
-    productBundleIds: {},
-    features: [],
+    availability: "in_stock",
     type: "injection",
-    popular: false,
-    quiz: "anti-aging"
+    category: "weight-loss",
+    features: [
+      "Weekly subcutaneous injection",
+      "GLP-1 receptor agonist",
+      "Weight loss support",
+      "Blood sugar control",
+      "Prescription required"
+    ],
+    quiz: null,
+    order: 1
   },
   {
     id: "mounjaro-injection",
@@ -62,35 +59,6 @@ export const products: Product[] = [
       "GLP-1 receptor agonist",
       "Effective for weight loss",
       "Diabetes management",
-      "Prescription required"
-    ],
-    quiz: null,
-    order: 1
-  },
-  {
-    id: "ozempic-injection",
-    name: "Ozempic Injection",
-    description: "Weekly GLP-1 injection for weight loss and blood sugar control",
-    img: "/assets/images/products/ozempic-injection.png",
-    thumbnail: "/assets/images/products/ozempic-injection.png",
-    prices: {
-      monthly: 399,
-      threeMonthly: 349,
-      sixMonthly: 349
-    },
-    productBundleIds: {
-      monthly: "ozempic-injection-monthly",
-      threeMonthly: "ozempic-injection-three-monthly",
-      sixMonthly: "ozempic-injection-six-monthly"
-    },
-    availability: "in_stock",
-    type: "injection",
-    category: "weight-loss",
-    features: [
-      "Weekly subcutaneous injection",
-      "GLP-1 receptor agonist",
-      "Weight loss support",
-      "Blood sugar control",
       "Prescription required"
     ],
     quiz: null,
@@ -124,6 +92,40 @@ export const products: Product[] = [
     ],
     quiz: null,
     order: 3
+  },
+  {
+    id: "a9ea1b19-ac05-4827-ad7b-5dcac1f0d700",
+    name: "Compounded Semaglutide",
+    description: "Same active ingredient as Ozempic®* and Wegovy®*• Price Includes Consult + Medication + Shipping • 15-20% average weight loss in clinical trials • 4 Weekly Subcutaneous Injections* If medication isn't prescribed, the tele-health consult fee is $80. Compounded medications are tailored to patients & made in licensed US facilities per a Rx from a medical professional. Important safety information",
+    category: "skin",
+    img: "https://storage.googleapis.com/care360-next-public/productImages%2Fa9ea1b19-ac05-4827-ad7b-5dcac1f0d700%2FSemaglutide%20Vial%20Example.png",
+    thumbnail: "https://storage.googleapis.com/care360-next-public/productImages%2Fa9ea1b19-ac05-4827-ad7b-5dcac1f0d700%2FSemaglutide%20Vial%20Example.png",
+    prices: {
+      monthly: 300
+    },
+    productBundleIds: {},
+    features: [],
+    type: "injection",
+    popular: false,
+    quiz: "anti-aging",
+    order: 4
+  },
+  {
+    id: "6e0ad4a2-a283-4105-a749-afb4b3a33f5b",
+    name: "Compounded Tirzepatide",
+    description: "Same active ingredient as Mounjaro®* and Zepbound®*• Price Includes Consult + Medication + Shipping • 20-25% average weight loss in clinical trials• 4 Weekly Subcutaneous Injections* If medication isn't prescribed, the tele-health consult fee is $80. Compounded medications are tailored to patients & made in licensed US facilities per a Rx from a medical professional. Important safety information",
+    category: "sexual health",
+    img: "https://storage.googleapis.com/care360-next-public/productImages%2Fd3b463da-46c2-4ce2-b836-58a89f549cff%2FTirzepatide%20Vial%20Example.png",
+    thumbnail: "https://storage.googleapis.com/care360-next-public/productImages%2Fd3b463da-46c2-4ce2-b836-58a89f549cff%2FTirzepatide%20Vial%20Example.png",
+    prices: {
+      monthly: 500
+    },
+    productBundleIds: {},
+    features: [],
+    type: "injection",
+    popular: false,
+    quiz: "anti-aging",
+    order: 5
   }
 ];
 
