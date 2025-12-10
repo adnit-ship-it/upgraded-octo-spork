@@ -157,22 +157,22 @@
         },
         "steps": [
           {
-            "title": "Case Created",
-            "subtext": "Fill out the form and get excited!",
+            "title": "Virtual Consult",
+            "subtext": "Get matched and meet with a provider",
             "icon": {
-              "src": "/assets/images/case-created.svg",
-              "alt": "Case created icon",
+              "src": "/assets/images/virtual-consult.svg",
+              "alt": "Virtual consult icon",
               "type": "svg-image",
               "color": "#A75809"
             },
             "order": 1
           },
           {
-            "title": "Virtual Consult",
-            "subtext": "Get matched and meet with a provider",
+            "title": "Case Created",
+            "subtext": "Fill out the form and get excited!",
             "icon": {
-              "src": "/assets/images/virtual-consult.svg",
-              "alt": "Virtual consult icon",
+              "src": "/assets/images/case-created.svg",
+              "alt": "Case created icon",
               "type": "svg-image",
               "color": "#A75809"
             },
