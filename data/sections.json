@@ -137,7 +137,7 @@
         "heading": {
           "text": "Our Journey",
           "type": "text",
-          "color": "bodyColor",
+          "color": "accentColor2",
           "show": true
         },
         "button": {
