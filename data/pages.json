@@ -48,7 +48,7 @@
       "height": {
         "mobile": "24px",
         "tablet": "28px",
-        "desktop": "250"
+        "desktop": "250px"
       },
       "width": {
         "mobile": "auto",
